@@ -49,22 +49,3 @@ void draw() {
   rect(25,25,hplength,20);
   
  }
-
-void draw() {
-  image(bg1Img,bg1x+=3,0);
-  image(bg2Img,bg2x+=3,0);
-  image(fighterImg,580,240);
-  image(hpImg,20,20);
-  image(treasureImg,treasureX,treasureY);
-  image(enemyImg,enemyx+=4,300);
-  
-  enemyx %= 640; 
-  bg1x %= 640;
-  bg2x %= 640;
-
-    
-  colorMode(RGB);
-  fill(255,0,0);
-  rect(25,25,hplength,20);
-  
- }
